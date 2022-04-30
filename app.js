@@ -14,4 +14,9 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use('/api', routes)
 
+app.use(express.static('public'))
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
 module.exports = app

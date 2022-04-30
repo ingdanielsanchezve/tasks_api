@@ -73,6 +73,8 @@ const router = Router();
 const userController = require('../controllers/userController');
 const taskController = require('../controllers/taskController');
 
+
+router.get('/', (req, res) => res.send('Hello World this is Tasks Manageent API!'))
 /**
  * @swagger
  * /signup:
