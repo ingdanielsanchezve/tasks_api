@@ -24,6 +24,10 @@ const swaggerDefinition = {
       url: 'http://localhost:3000/api',
       description: 'Development server',
     },
+    {
+      url: 'https://salty-tor-73731.herokuapp.com/api',
+      description: 'Production server',
+    },
   ],
 }
 
